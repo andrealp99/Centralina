@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS1H200AQDGNRQ1
+D 40V, 200 mOhm, Single-Channel Smart High-Side Switch
+K
+F http://www.ti.com/lit/gpn/tps1h200a-q1
+$ENDCMP
+#
+#End Doc Library

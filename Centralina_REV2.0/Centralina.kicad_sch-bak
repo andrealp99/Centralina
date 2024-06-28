@@ -1,0 +1,132 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6c081a41-7694-4348-aefe-aafa0be843dc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 209.55 72.39)
+		(size 24.13 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "300bbe2e-7418-4c1e-9996-603045772921")
+		(property "Sheetname" "Modulo_Alimentazione"
+			(at 209.55 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modulo_Alimentazione.kicad_sch"
+			(at 209.55 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+5V_REL" output
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88843073-04bd-4a2f-8a4f-0b972cf76766")
+		)
+		(pin "GND" input
+			(at 209.55 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff8975e5-af86-4fd4-af02-171f89a855eb")
+		)
+		(pin "P_ON" input
+			(at 209.55 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4832e622-3b9e-41b7-8141-b3c84a7104c0")
+		)
+		(pin "+12V_OUT" output
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7021c2f-4db5-4f92-84ed-95a1f2fc348d")
+		)
+		(pin "EN_RELPWR" input
+			(at 209.55 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1a3fd53-4e37-418e-94ac-b646a390518c")
+		)
+		(pin "P_OFF" input
+			(at 209.55 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddda146f-bfcf-47b9-989c-b336d6809fe7")
+		)
+		(pin "+12V_IN" input
+			(at 209.55 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "897791a1-e38d-4aea-83ba-a1accb5c14d6")
+		)
+		(pin "+5V_OUT" output
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f896a04d-93c1-4220-97a5-fb233fb7988c")
+		)
+		(instances
+			(project "Centralina"
+				(path "/6c081a41-7694-4348-aefe-aafa0be843dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
