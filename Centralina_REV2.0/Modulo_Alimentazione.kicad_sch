@@ -6274,7 +6274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "1mF"
 			(at 121.92 34.6709 0)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C503217"
+		(property "REF" "C88751"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -8359,6 +8359,85 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
+		(at 248.92 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a91556a-5c84-436c-88e1-85991843fa7a")
+		(property "Reference" "C22"
+			(at 252.73 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mF"
+			(at 252.73 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 249.8852 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "C88751"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a42b46-27c5-4c3c-abd7-c3f7b00b294c")
+		)
+		(pin "2"
+			(uuid "a74edac2-f6e3-4b77-a950-8d2f7dd0a81a")
+		)
+		(instances
+			(project "Centralina"
+				(path "/6c081a41-7694-4348-aefe-aafa0be843dc/300bbe2e-7418-4c1e-9996-603045772921"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 234.95 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8385,7 +8464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 235.9152 38.1 0)
 			(effects
 				(font
@@ -8412,7 +8491,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C72478"
+		(property "REF" "C43348"
 			(at 234.95 34.29 0)
 			(effects
 				(font
@@ -8579,85 +8658,6 @@
 			(project "Centralina"
 				(path "/6c081a41-7694-4348-aefe-aafa0be843dc/300bbe2e-7418-4c1e-9996-603045772921"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 248.92 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af8b474d-e847-407f-8d7f-17d3304ee8d4")
-		(property "Reference" "C16"
-			(at 252.73 32.1309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 252.73 34.6709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 249.8852 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REF" "C72478"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "933e4908-20a7-4b9b-9dd1-4d855e9c91e5")
-		)
-		(pin "2"
-			(uuid "f656f2fa-8b6f-43e8-a781-366d7e7dffac")
-		)
-		(instances
-			(project "Centralina"
-				(path "/6c081a41-7694-4348-aefe-aafa0be843dc/300bbe2e-7418-4c1e-9996-603045772921"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1204S-1R0"
+		(property "Footprint" "JLCPCB_PART:IND-TH_BD13.0-P6.00-D0.8"
 			(at 106.68 27.94 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "REF" "C408533"
+		(property "REF" "C5119631"
 			(at 106.68 27.94 0)
 			(effects
 				(font

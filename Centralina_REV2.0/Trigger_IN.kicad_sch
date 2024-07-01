@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "JLCPCB_PART:RES-TH_BD1.9-L3.3-P7.30-D0.5"
 			(at 97.79 46.228 90)
 			(effects
 				(font
